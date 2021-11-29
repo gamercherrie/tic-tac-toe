@@ -1,0 +1,46 @@
+
+.game-board{
+    display:grid;
+    grid-template-rows: 170px 170px 170px;
+    grid-template-columns: 170px 170px 170px;
+}
+#reset {
+    color: #F7F7FF;
+    background-color: #577399;
+    width: 50%;
+
+}
+button{
+    color: #F7F7FF;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #33658A;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+.box i {
+    font-size: 70px;
+    color: #2374AB;
+}
+.playQ{
+    font-size: 300%;
+    font-family: monospace;
+    color: #F7F7FF;
+}
+.headerName{
+    color: #F7F7FF;
+    font-family: monospace;
+    font-size: xx-large;
+    
+}
+#Player{
+    color:#F7F7FF;
+    font-family: monospace;
+    font-size: xx-large;
+}
